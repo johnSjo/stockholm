@@ -1,0 +1,104 @@
+body {
+    background-color: #bebebe;
+    font: 400 1em/1.38 Montserrat;
+    color: #ffffff;
+}
+
+.container {
+    float: right;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+.location {
+    float: left;
+    z-index: 8;
+    width: 200px;
+    min-height: 59px;
+    font-size: 1.313em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.input {
+    color : #000000;
+    width: 200px;
+    margin-bottom: -1.38em;
+    float: left;
+}
+
+.temperature {
+    width: 200px;
+    text-align: center;
+    font-size: 4.25em;
+    font-weight: 700;
+    float: left;
+}
+
+.climate_bg {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.weathericon {
+
+}
+
+.info_bg {
+    width: 200px;
+    height: 100px;
+    background-color: #1ab1ed;
+    float: left;
+}
+
+.dropicon {
+    margin-top: -15px;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.humidity {
+    margin-top: -15px;
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+.windicon {
+    margin-top: -15px;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.windspeed {
+    margin-top: -30px;
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+.windspeed p {
+    margin-bottom: -.2em;
+}
+
+.minusIcon_bg {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.minusIcon {
+}
+
+.plusIcon{
+    width: 60px;
+    float: right;
+}
